@@ -1,0 +1,96 @@
+/*
+Course:  Bootstrap 4 Quick Start
+Author:  Brad Hussey
+Website: bradhussey.ca
+--------------------------------- */
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+/* JUMBOTRON
+--------------------------------- */
+
+.jumbotron {
+    align-items: center;
+    display: flex;
+    background: #222 url('../images/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#about {
+    background: url('../images/girlincar.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+.caption {
+    width: 100%;
+}
+
+.caption .container div form {
+    justify-content: center;
+}
+
+.card-block h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.card-block h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+
+
+
+
+/* FOOTER
+--------------------------------- */
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+footer {
+    text-transform: capitalize;
+}
+
+footer li {
+    padding-bottom: .5rem;
+}
+
+footer a {
+    color: white;
+}
+
+a:focus,
+a:hover {
+    color: #f0ad4e;
+    text-decoration: underline;
+}
