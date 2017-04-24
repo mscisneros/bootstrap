@@ -2,7 +2,26 @@
 Course:  Bootstrap 4 Quick Start
 Author:  Brad Hussey
 Website: bradhussey.ca
---------------------------------- */
+-------------------------------------------------------------------------------------- */
+
+/*
+CSS: Custom Bootstrap Rulesets
+Bootlint: http://www.bootlint.com/
+Bootlint found 4 problems:
+    1. E014 Line 20, Column 13:Columns (`.col-*-*`) can only be children of `.row`s or `.form-group`s
+
+    2. E014 Line 197, Column 13:Columns (`.col-*-*`) can only be children of `.row`s or `.form-group`s
+
+    3. E029 Line 81, Column 9:Since grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes
+    (unless overridden by grid classes targeting larger screens), `class="col-md-4 col-sm-4"` is redundant and can be simplified to `class="col-sm-4"
+
+    4. W012 Line 63, Column 13:`.navbar's` first child element should always be either `.container` or `.container-fluid
+
+Edits: Mario S Cisneros
+Date Modified: 4/21/17
+URL: http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/index.html
+-------------------------------------------------------------------------------------- */
+
 
 html,
 body {
@@ -18,7 +37,7 @@ img {
 
 
 /* JUMBOTRON
---------------------------------- */
+--------------------------------------------------------------------------- */
 
 .jumbotron {
     align-items: center;
@@ -43,6 +62,7 @@ img {
 }
 
 .caption {
+    margin-top: -15em;
     width: 100%;
 }
 
@@ -69,7 +89,7 @@ img {
 
 
 /* FOOTER
---------------------------------- */
+--------------------------------------------------------------------------- */
 #footer-main {
     background: #222;
     color: white;
@@ -78,7 +98,8 @@ img {
 }
 
 footer {
-    text-transform: capitalize;
+    line-height: 1.75;
+    text-transform: inherit;
 }
 
 footer li {
