@@ -38,37 +38,19 @@ img {
 
 /* CLASS SELECTORS
 --------------------------------------------------------------------------- */
-.bg-inverse {
-    background-color: #1d202f!important;
-}
-
-
-
-
-
-/* JUMBOTRON
---------------------------------------------------------------------------- */
-
-.jumbotron {
-    align-items: center;
-    display: flex;
-    background: #222 url('../images/stars.jpg') center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-#about {
-    background: url('../images/girlincar.jpg') center center no-repeat;
-    background-size: cover;
-}
-
 .about-text {
     background: rgba(0,0,0,0.8);
     color: white;
     padding: 1.875rem;
+}
+
+.bg-inverse {
+    background-color: #1d202f!important;
+}
+
+.copyright p {
+    margin: .25rem 0em;
+    padding: 0;
 }
 
 .caption {
@@ -78,6 +60,11 @@ img {
 
 .caption .container div form {
     justify-content: center;
+}
+
+.card footer {
+    background-color: transparent;
+    padding: 0;
 }
 
 .card-block h3 {
@@ -98,18 +85,44 @@ img {
 
 
 
+/* ID SELECTORS
+--------------------------------------------------------------------------- */
+#about {
+    background: url('../images/girlincar.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* JUMBOTRON
+--------------------------------------------------------------------------- */
+
+.jumbotron {
+    align-items: center;
+    display: flex;
+    background: #222 url('../images/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+
+
 /* FOOTER
 --------------------------------------------------------------------------- */
-#footer-main {
+footer {
     background: #222;
     color: white;
     font-size: 0.8rem;
-    padding: 2.5rem 0;
-}
-
-footer {
     line-height: 1.75;
     text-transform: inherit;
+    padding: 2.5rem 0;
 }
 
 footer li {
