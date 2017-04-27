@@ -8,13 +8,13 @@ This is a practice and development environment focused on version 4 that include
 * Switching to SASS
 * Cards (replaces panel)
 
+### Credit:
+* https://www.youtube.com/watch?v=69nEzHLy_tM&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF&index=1
+
 ### Demos:
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/index.html
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/band.html
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/startup.html
-
-### Credit:
-* https://www.youtube.com/watch?v=69nEzHLy_tM&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF&index=1
 
 ### Resources:
 * https://v4-alpha.getbootstrap.com/
