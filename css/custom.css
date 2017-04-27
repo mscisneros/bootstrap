@@ -18,7 +18,7 @@ Bootlint found 4 problems:
     4. W012 Line 63, Column 13:`.navbar's` first child element should always be either `.container` or `.container-fluid
 
 Edits: Mario S Cisneros
-Date Modified: 4/23/17
+Date Modified: 4/26/17
 URL: http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/index.html
 -------------------------------------------------------------------------------------- */
 
@@ -46,6 +46,17 @@ img {
 
 .bg-inverse {
     background-color: #1d202f!important;
+}
+
+.btn-link, .btn-link.active, .btn-link:active, .btn-link:disabled {
+    background-color: #5cb85c;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn-link:hover {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .copyright p {
