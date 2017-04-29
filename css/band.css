@@ -4,23 +4,16 @@ Author:  Brad Hussey
 Website: bradhussey.ca
 -------------------------------------------------------------------------------------- */
 
-.navbar-collapse .container-fluid {
-  padding: 2rem 2.5rem;
-  border-bottom: 1px solid #55595c;
-}
+/*
+CSS: Custom Bootstrap Rulesets
+Edits: Mario S Cisneros
+Date Modified: 4/26/17
+URL: http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/index.html
+YouTube Tutorial: https://www.youtube.com/watch?v=tLANGA8f6qI&index=7&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF -->
+----------------------------------------------------------------------------------------------------------------------- */
 
-.navbar-collapse h4 {
-  color: #818a91;
-}
-
-.navbar-collapse .text-muted {
-  color: #818a91;
-}
-
-.about {
-  float: left;
-  max-width: 30rem;
-  margin-right: 3rem;
+.navbar {
+  margin-bottom: 0;
 }
 
 
@@ -28,16 +21,19 @@ Website: bradhussey.ca
 
 
 /* JUMBOTRON
--------------------------------------------------------------------------------------- */
+--------------------------------------------------------------------------- */
 .jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+    background: url('../images/banjo.jpg') no-repeat bottom center;
+    background-color: #fff;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.jumbotron p:last-child {
   margin-bottom: 0;
-  background-color: #fff;
-  background-image: url('../images/banjo.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
 }
 
 .jumbotron-heading {
@@ -60,8 +56,6 @@ Website: bradhussey.ca
 
 
 
-/* ALBUM
--------------------------------------------------------------------------------------- */
 .album {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -73,7 +67,7 @@ Website: bradhussey.ca
 
 
 /* CARD
--------------------------------------------------------------------------------------- */
+--------------------------------------------------------------------------- */
 .card {
   float: left;
   width: 33.333%;
@@ -96,7 +90,7 @@ Website: bradhussey.ca
 
 
 /* FOOTER
--------------------------------------------------------------------------------------- */
+--------------------------------------------------------------------------- */
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
