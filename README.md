@@ -12,9 +12,9 @@ This is a practice and development environment focused on version 4 that include
 * https://www.youtube.com/watch?v=69nEzHLy_tM&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF&index=1
 
 ### Demos:
-* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/index.html
-* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/band.html
-* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/startup.html
+* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/index.html
+* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/band.html
+* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/startup.html
 
 ### Resources:
 * https://v4-alpha.getbootstrap.com/
