@@ -7,7 +7,7 @@ Website: bradhussey.ca
 /*
 CSS: Custom Bootstrap Rulesets
 Edits: Mario S Cisneros
-Date Modified: 4/30/17
+Date Modified: 5/5/17
 URL: http://beta.mariocisneros.me/workbench/bootstrap/tutorials/codecollege/index.html
 YouTube Tutorial: https://www.youtube.com/watch?v=tLANGA8f6qI&index=7&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF -->
 ----------------------------------------------------------------------------------------------------------------------- */
@@ -69,11 +69,7 @@ YouTube Tutorial: https://www.youtube.com/watch?v=tLANGA8f6qI&index=7&list=PLUoq
 /* CARD
 --------------------------------------------------------------------------- */
 .card {
-  float: left;
-  width: 33.333%;
   padding: .75rem;
-  margin-bottom: 0;
-  border: 0;
 }
 
 .card > img {
