@@ -12,6 +12,7 @@ This is a practice and development environment focused on version 4 that include
 * https://www.youtube.com/watch?v=69nEzHLy_tM&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF&index=1
 
 ### Demos:
+* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/news.html
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/index.html
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/band.html
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/startup.html
