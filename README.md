@@ -21,6 +21,11 @@ This is a practice and development environment focused on version 4 that include
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/band.html
 * http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/startup.html
 
+### Development Tools
+* Used Bootlint (http://www.bootlint.com/) to indentify and correct errors with the markup
+* Used CSS Lint (http://csslint.net/) to indentify and correct errors in the stylesheet
+* Used DirtyMarkup (https://dirtymarkup.com/) to restructure the custom CSS stylesheet
+
 ### Resources:
 * https://v4-alpha.getbootstrap.com/
 * https://v4-alpha.getbootstrap.com/components/
@@ -29,8 +34,3 @@ This is a practice and development environment focused on version 4 that include
 * https://v4-alpha.getbootstrap.com/migration/
 * https://v4-alpha.getbootstrap.com/layout/grid/
 * https://v4-alpha.getbootstrap.com/utilities/
-
-### Development Tools
-* Used Bootlint (http://www.bootlint.com/) to indentify and correct errors with the markup
-* Used CSS Lint (http://csslint.net/) to indentify and correct errors in the stylesheet
-* Used DirtyMarkup (https://dirtymarkup.com/) to restructure the custom CSS stylesheet
