@@ -16,10 +16,10 @@ This is a practice and development environment focused on version 4 that include
 * http://grafreez.com/280/bootstrap-4-template-news-magazine/
 
 ### Demos:
-* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/news.html
-* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/index.html
-* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/band.html
-* http://beta.mariocisneros.me/workbench/bootstrap/tutorials/examples/startup.html
+* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/news.html
+* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/index.html
+* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/band.html
+* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/startup.html
 
 ### Development Tools
 * Used Bootlint (http://www.bootlint.com/) to indentify and correct errors with the markup
