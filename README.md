@@ -9,11 +9,11 @@ This is a practice and development environment focused on version 4 that include
 * Consistency: Create familiarity and strengthen intuition by applying the same solution to the same problem.
 * Beauty: Demonstrate respect for people's time and attention through thoughtful and elegant craftsmanship.
 
-### Design Systems
+## Design Systems
 * Atlassian: https://carbondesignsystem.com/
 * Carbon (IBM): https://github.com/carbon-design-system/carbon
 * Polaris (Shopify): https://polaris.shopify.com/
 * Lightning Design System (Salesforce): https://lightningdesignsystem.com/guidelines/overview/
 
-### Resources:
+## Resources:
 * To Be Determined
