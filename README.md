@@ -1,9 +1,6 @@
 # Overview
 A basic starter kit that serves as a foundation to help create and build products and features faster.
 
-## Demo:
-* http://beta.mariocisneros.me/projects/giddyup/index.html
-
 ## Design Principles
 This is a practice and development environment focused on version 4 that includes many new features:
 
