@@ -1,25 +1,19 @@
 # Overview
-The following selection is a partial listing of some additional web–based projects using Bootstrap V4 that demonstrates the latest in mobile-first designs. I've developed these prototypes to showcase my ability to use the most popular framework for building responsive, mobile-first projects on the web.
+A basic starter kit that serves as a foundation to help create and build products and features faster.
 
-## Bootstrap
+## Demo:
+* http://beta.mariocisneros.me/projects/giddyup/index.html
+
+## Design Principles
 This is a practice and development environment focused on version 4 that includes many new features:
 
-* Embracing Flex-box
-* Grid Improvements
-* Updated Media Queries
-* Dropping IE9 Support
-* Switching to SASS
-* Cards (replaces panel)
+* Clarity: Eliminate ambiguity. Enable people to see, understand, and act with confidence.
+* Efficiency: Streamline and optimize workflows. Intelligently anticipate needs to help people work better, smarter, and faster.
+* Consistency: Create familiarity and strengthen intuition by applying the same solution to the same problem.
+* Beauty: Demonstrate respect for people's time and attention through thoughtful and elegant craftsmanship.
 
 ### Credits:
-* https://www.youtube.com/watch?v=69nEzHLy_tM&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF&index=1
-* http://grafreez.com/280/bootstrap-4-template-news-magazine/
-
-### Demos:
-* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/news.html
-* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/index.html
-* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/band.html
-* http://beta.mariocisneros.me/workbench/bootstrap/examples/codecollege/startup.html
+* To Be Determined
 
 ### Development Tools
 * Used Bootlint (http://www.bootlint.com/) to indentify and correct errors with the markup
@@ -27,10 +21,4 @@ This is a practice and development environment focused on version 4 that include
 * Used DirtyMarkup (https://dirtymarkup.com/) to restructure the custom CSS stylesheet
 
 ### Resources:
-* https://v4-alpha.getbootstrap.com/
-* https://v4-alpha.getbootstrap.com/components/
-* https://v4-alpha.getbootstrap.com/content/
-* https://v4-alpha.getbootstrap.com/layout/overview/
-* https://v4-alpha.getbootstrap.com/migration/
-* https://v4-alpha.getbootstrap.com/layout/grid/
-* https://v4-alpha.getbootstrap.com/utilities/
+* To Be Determined
