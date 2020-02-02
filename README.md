@@ -1,5 +1,5 @@
 # Overview
-A basic starter kit that serves as a foundation to help create and build products and features faster.
+A design system is a centralized collection of guidelines, principles and reusable components that are guided by clear standards, which helps a business reinforce a consistent brand. These guidelines and components provide a unified language and consistent look and feel when designing websites, apps and products.
 
 ## Design Principles
 This is a practice and development environment focused on version 4 that includes many new features:
