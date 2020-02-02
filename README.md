@@ -9,18 +9,11 @@ This is a practice and development environment focused on version 4 that include
 * Consistency: Create familiarity and strengthen intuition by applying the same solution to the same problem.
 * Beauty: Demonstrate respect for people's time and attention through thoughtful and elegant craftsmanship.
 
-### Credits:
-* To Be Determined
-
 ### Design Systems
 * Atlassian: https://carbondesignsystem.com/
 * Carbon (IBM): https://github.com/carbon-design-system/carbon
 * Polaris (Shopify): https://polaris.shopify.com/
 * Lightning Design System (Salesforce): https://lightningdesignsystem.com/guidelines/overview/
-
-* Used Bootlint (http://www.bootlint.com/) to indentify and correct errors with the markup
-* Used CSS Lint (http://csslint.net/) to indentify and correct errors in the stylesheet
-* Used DirtyMarkup (https://dirtymarkup.com/) to restructure the custom CSS stylesheet
 
 ### Resources:
 * To Be Determined
