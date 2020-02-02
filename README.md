@@ -14,5 +14,5 @@ A design system is a centralized collection of guidelines, principles and reusab
 * Lightning Design System (Salesforce): https://lightningdesignsystem.com/guidelines/overview/
 
 ## Resources:
-* Building a Design System: https://uxdesign.cc/building-a-design-system-where-to-start-part-1-first-things-first-57577153ae2d
+* Design Systems 101 for Designers: https://www.youtube.com/watch?v=wc5krC28ynQ
 * Design Systems Handbook: https://www.designbetter.co/design-systems-handbook
