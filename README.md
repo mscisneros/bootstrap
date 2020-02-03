@@ -1,5 +1,5 @@
 # Introduction
-This project and related website provides an extensive library of information and resources to serve as a reference tool to help facilitate web&#45;based projects. In addition, much of the content is a collection of varied articles, design systems and tutorials that are bundled together in an effort to share advice and recommendations from experts in the industry.
+This project and related website provides an extensive library of information and resources to serve as a reference tool to help facilitate web&#45;based projects. In addition, much of the content is a collection gathered from varied articles, design systems and tutorials that are bundled together in an effort to share advice and recommendations from experts in the industry.
 
 # Overview
 A design system is a centralized collection of guidelines, principles and reusable components that are guided by clear standards, which helps a business reinforce a consistent brand. These guidelines and components provide a unified language and consistent look and feel when designing websites, apps and products.
