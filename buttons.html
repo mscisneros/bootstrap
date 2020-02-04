@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" id="design-system">
+<head>
+    <meta charset="utf-8">
+    <title>Design System &#45; Buttons | InfoCenter</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mario Cisneros">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!--#include virtual="includes/stylesheets.htm"-->
+    <!-- CUSTOM CSS OVERRIDES -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="buttons">
+<!--#include virtual="includes/header.htm"-->
+
+<div class="container  section-content">
+    <div class="row">
+        <!--#include virtual="includes/sidebar.htm"-->
+
+        <main role="main" class="col-lg-9  order-1  order-lg-9  pl-lg-5">
+            <div class="jumbotron  jumbotron-fluid">
+                <div class="overlay">
+                    <section class="container">
+                        <h1>Buttons</h1>
+                    </section>
+                </div>
+            </div>
+
+            <p class="lead"> Button labels use sentence case and are as short as possible, while clearly explaining what happens when the button is activated. Therefore, it&#39;s important to accurately label buttons, so users understand what will happen when they click or tap on them.</p>
+
+            <h2 class="h3">Buttons can perform an action or complete a task:</h2>
+            <ol>
+                <li>submit a form</li>
+                <li>begin a new task</li>
+                <li>trigger a new UI element to appear on the page</li>
+                <li>specify a new or next step in a process</li>
+            </ol>
+
+            <h2 class="h3">Button vs. Link</h2>
+            <p>The HTML elements for buttons and links describe a very specific type of action that is going to be taken when they are used. It is important you know when to use which, as the distinction matters:</p>
+
+            <ul>
+                <li>Use a <strong>link</strong> when you&#39;re navigating to another page.</li>
+                <li>Use buttons when you are performing an action, such as: &#8220;submit,&#8221; &#8220;merge,&#8221; &#8220;create new,&#8221; &#8220;download,&#8221;, &#8220;upload,&#8221; etc.</li>
+            </ul>
+
+            <h2 class="h3">Accessibility</h2>
+            <p>If pressing a Button results in a new URL, or the resultant UI makes sense as &#8220;a new browser tab&#8221;, that is a link <code>&#60;a&#62;</code>. Everything else is a <code>&#60;button&#62;</code>. The distinction is important to screen reader users to know what&#39;s going to happen next. Will I navigate somewhere or will something happen on the page? So it&#39;s important to choose the right HTML element for the job.</p>
+            <p>If you absolutely cannot use a <code>&#60;button&#62;</code> element for an action and instead need to use an <code>&#60;a&#62;</code>, you are required to do 2 things:</p>
+
+            <ul>
+                <li>Add role=&#8220;button&#8221; attribute to the <a /> to make the element announce itself as a button element.</li>
+                <li>Add a JavaScript event handler for when the user presses the space key. This is because a button element will respond by default to both the enter and space keys being pressed, but an <a /> element will not.</li>
+            </ul>
+
+            <p>Finally, color alone does not suffice when conveying the meaning of buttons. Ensure that the text you use in the button matches the meaning you are trying to convey via color.</p>
+
+            <div class="card">
+                <div class="card-header  h4">Primary Button</div>
+
+                <div class="card-body">
+                    <ul class="d-inline-block  my-5">
+                        <li><a href="#" class="btn  btn-primary-default">Default</a></li>
+                        <li><a href="#" class="btn  btn-primary-hover  mx-4">Hover</a></li>
+                        <li><a href="#" class="btn  btn-primary-focus  mr-4">Focus</a></li>
+                        <li><a href="#" class="btn  btn-primary-demo">Demo</a></li>
+                    </ul>
+
+                    <div class="wrapper">
+                        <ul class="code-snippet">
+                            <li>&#60;a href="#" class="btn  btn-primary-default">Default&#60;/a&#62;</li>
+                            <li>&#60;a href="#" class="btn  btn-primary-hover">Hover&#60;/a&#62;</li>
+                            <li>&#60;a href="#" class="btn  btn-primary-focus">Focus&#60;/a&#62;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header  h4">Secondary Button</div>
+
+                <div class="card-body">
+                    <ul class="d-inline-block  my-5">
+                        <li><a href="#" class="btn  btn-secondary-default">Default</a></li>
+                        <li><a href="#" class="btn  btn-secondary-hover  mx-4">Hover</a></li>
+                        <li><a href="#" class="btn  btn-secondary-focus  mr-4">Focus</a></li>
+                        <li><a href="#" class="btn  btn-secondary-demo">Demo</a></li>
+                    </ul>
+
+                    <div class="wrapper">
+                        <ul class="code-snippet">
+                            <li>&#60;a href="#" class="btn  btn-secondary-default">Default&#60;/a&#62;</li>
+                            <li>&#60;a href="#" class="btn  btn-secondary-hover">Hover&#60;/a&#62;</li>
+                            <li>&#60;a href="#" class="btn  btn-secondary-focus">Focus&#60;/a&#62;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header  h4">Button Variations</div>
+
+                <div class="card-body">
+                    <ul class="d-inline-block  my-5">
+                        <li><a href="#" class="btn  btn-default">Default</a></li>
+                        <li><a href="#" class="btn  btn-disabled  mx-4">Disabled</a></li>
+                        <li><a href="#" class="btn  btn-warning  mr-4">Warning</a></li>
+                        <li><a href="#" class="btn  btn-error">Error</a></li>
+                    </ul>
+
+                    <div class="wrapper">
+                        <ul class="code-snippet">
+                            <li>&#60;a href="#" class="btn  btn-default">Default&#60;/a&#62;</li>
+                            <li>&#60;a href="#" class="btn  btn-disabled">Disabled&#60;/a&#62;</li>
+                            <li>&#60;a href="#" class="btn  btn-warning">Warning&#60;/a&#62;</li>
+                            <li>&#60;a href="#" class="btn  btn-error">Error&#60;/a&#62;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header  h4">Resources</div>
+                <div class="card-body">
+                    <ul class="mb-0">
+                        <li><a href="https://atlassian.design/guidelines/product/components/buttons" rel="noopener" target="_blank">Atlassian Design | Buttons</a></li>
+                        <li><a href="https://atlassian.design/guidelines/product/components/buttons" rel="noopener" target="_blank">Medium | Creating with a Design System in Sketch: Part Five &ndash; Buttons</a></li>
+                        <li><a href="https://lightningdesignsystem.com/components/buttons/#Sizing" rel="noopener" target="_blank">Salesforce | Buttons &ndash; Lightning Design System</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<!--#include virtual="includes/footer.htm"-->
+
+</body>
+</html>
