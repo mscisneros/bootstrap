@@ -1,0 +1,109 @@
+/* BUTTONS: UPDATED FEBRUARY 5, 2019
+--------------------------------------- */
+#buttons {
+    .btn {
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        display: inline;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 0.75rem 3rem;
+        white-space: nowrap !important;
+    }
+
+    // Primary
+    .btn-primary-default {
+        background-color: $brand-primary-color;
+        color: $white;
+    }
+
+    .btn-primary-hover {
+        background-color: $white;
+        border: 1px solid $brand-primary-color;
+        color: $brand-primary-color;
+    }
+
+    .btn-primary-focus {
+        background-color: $brand-primary-color;
+        border: 1px solid $nav-link-hover-color;
+        box-shadow: 3px 3px 5px 2px #ccc;
+        color: $nav-link-hover-color;
+    }
+
+    .btn-primary-demo {
+        background-color: $brand-primary-color;
+        color: $white;
+
+        &:hover {
+            background-color: $white;
+            border: 1px solid $brand-primary-color;
+            color: $brand-primary-color;
+        }
+
+        &.btn:focus {
+            background-color: $brand-primary-color;
+            border: 1px solid $nav-link-hover-color;
+            box-shadow: 3px 3px 5px 2px #ccc;
+            color: $nav-link-hover-color;
+        }
+    }
+
+    // Secondary
+    .btn-secondary-default {
+        background-color: $color-btn-secondary;
+        color: $black;
+    }
+
+    .btn-secondary-hover {
+        background-color: $color-btn-secondary-hover;
+        color: $white;
+    }
+
+    .btn-secondary-focus {
+        background-color: $color-btn-secondary;
+        border: 1px solid $black;
+        box-shadow: 3px 3px 5px 2px #ccc;
+        color: $black;
+    }
+
+    .btn-secondary-demo {
+        background-color: $color-btn-secondary;
+        color: $black;
+
+        &:hover {
+            background-color: $color-btn-secondary-hover;
+            color: $white;
+        }
+
+        &.btn:focus {
+            background-color: $color-btn-secondary;
+            border: 1px solid $black;
+            box-shadow: 3px 3px 5px 2px #ccc;
+            color: $black;
+        }
+    }
+
+    // Variations
+    .btn-default {
+        background-color: $color-background-light;
+        border: 1px solid $gray-light;
+        color: $black;
+    }
+
+    .btn-disabled {
+        background-color: $color-background-light;
+        border: 1px solid $gray-light;
+        color: $gray-medium;
+    }
+
+    .btn-warning {
+        background-color: $color-warning;
+        color: $black;
+    }
+
+    .btn-error {
+        background-color: $color-error;
+        color: $white;
+    }
+}

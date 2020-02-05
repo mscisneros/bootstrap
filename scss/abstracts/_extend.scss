@@ -1,0 +1,22 @@
+/* EXTEND - UPDATED SEPTEMBER 9, 2018
+---------------------------------------------------- */
+.message {
+  border: 1px solid $border-dark-color;
+  box-shadow: $box-shadow;
+  padding: 15px;
+}
+
+.success {
+  @extend .message;
+  color: $color-success;
+}
+
+.error {
+  @extend .message;
+  color: $color-error;
+}
+
+.warning {
+  @extend .message;
+  color: $color-warning;
+}

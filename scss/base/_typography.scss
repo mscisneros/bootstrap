@@ -1,0 +1,136 @@
+/* TYPOGRAPHY RULESETS: UPDATED FEBRUARY 5, 2020
+--------------------------------------------------- */
+
+// GLOBAL
+h1, h2, h3, h4, h5 {
+    font-family: georgia;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    color: $brand-primary-color-dark;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 3rem 0 0;
+}
+
+h2 + ul,
+h2 + ol,
+h3 + ul,
+h3 + ol,
+h3 + p {
+    margin-top: 1rem !important;
+}
+
+h3 {
+    border-bottom: none;
+    color: $color-tertiary-dark;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 2rem 0 0;
+    padding-bottom: 0;
+}
+
+h4 {
+    border-bottom: 1px solid $color-border;
+    color: $black;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 2em 0 1em;
+    padding-bottom: .5rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+
+// TYPOGRAPHY SUBPAGE
+#typography .section-content main {
+    ul.list {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    ul.list h1,
+    ul.list h2,
+    ul.list h3,
+    ul.list h4 {
+        border-bottom: none;
+        color: $black;
+        margin: 0;
+        padding: 0;
+    }
+
+    th {
+        min-width: 200px;
+    }
+}
+
+.subheading {
+    font: italic 14px/1.5 helvetica, sans-serif;
+}
+
+.large-text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.large-text-semibold {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.medium-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.medium-text-semibold {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.normal-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.normal-text-semibold {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.small-text-semibold {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.captions {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.captions-semibold {
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,36 @@
+/* ACCORDION: UPDATED JANUARY 25, 2020
+-------------------------------------------------- */
+.accordion {
+    margin-top: 3rem;
+}
+
+.accordion > .card:first-of-type {
+    border-bottom: 1px solid #dedede;
+}
+
+.accordion > .card:not(:first-of-type):not(:last-of-type) {
+    border-bottom: 1px solid #dedede;
+}
+
+.accordion .card-header {
+    background: #eee url(../images/icons/accordion.gif) no-repeat right 5px;
+}
+
+.accordion .card-header h2 {
+    color: #5db50a;
+}
+
+.accordion .card-header a {
+    cursor: pointer;
+    display: block;
+    font-size: 1.25rem;
+    padding: 15px;
+}
+
+.accordion .card-body ul ul {
+    margin: .25rem 0 !important;
+}
+
+.accordion .card-body li p {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,55 @@
+/* CARD: UPDATED JANUARY 27, 2020
+-------------------------------------------------- */
+.card {
+    border-radius: 5px !important;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    h3 {
+        color: $gray-dark;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    h4 {
+        margin: 1em 0;
+    }
+
+    .card-header {
+        background-color: $color-background-light;
+        color: $gray-dark;
+        font-family: georgia;
+        font-size: 1.25rem;
+        padding: $global-padding;
+    }
+
+    .card-body ul {
+        padding-left: 1.25rem;
+        margin-bottom: 0;
+
+        li li {
+            margin-bottom: 0;
+        }
+    }
+
+    .card-block {
+        padding: $global-padding;
+    }
+
+    .card-footer {
+        margin: 0;
+        padding: .25rem 1.25rem;
+
+        p {
+            margin: 0 !important;
+            padding: 0.25rem 0 !important;
+            text-align: center;
+        }
+    }
+}
+
+
+.accordion .card .card-header {
+    padding: 0;
+}

@@ -1,0 +1,74 @@
+/* JUMBOTRON: UPDATED FEBRUARY 5, 2020
+-------------------------------------------------- */
+.jumbotron {
+    background-color: #212121;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgba(0,0,0,.25);
+    color: $white;
+    height: auto;
+    margin-bottom: 3rem;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    border: none;
+    letter-spacing: 1px;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem 0;
+}
+
+#design-system .jumbotron .overlay h1 {
+    color: $white !important;
+}
+
+
+
+
+// BANNER IMAGES
+#buttons .jumbotron {
+    background: $color-secondary-background url("../images/banner/buttons.jpg") center 50% no-repeat;
+}
+
+#cards .jumbotron {
+    background: $color-secondary-background url("../images/banner/cards.jpg") center 75% no-repeat;
+}
+
+#colors .jumbotron {
+    background: $color-secondary-background url("../images/banner/colors.jpg") center 50% no-repeat;
+}
+
+#contribute .jumbotron {
+    background: $color-secondary-background url("../images/banner/contribute.jpg") center 75% no-repeat;
+}
+
+#grid .jumbotron {
+    background: $color-secondary-background url("../images/banner/grid.jpg") center 79% no-repeat;
+}
+
+#icons .jumbotron {
+    background: $color-secondary-background url("../images/banner/icons.jpg") center 12% no-repeat;
+}
+
+#overview .jumbotron {
+    background: $color-secondary-background url("../images/banner/design-system.jpg") center 65% no-repeat;
+}
+
+#navbar .jumbotron {
+    background: $color-secondary-background url("../images/banner/navbar.jpg") center 75% no-repeat;
+}
+
+#spacing .jumbotron {
+    background: $color-secondary-background url("../images/banner/spacing.jpg") center 80% no-repeat;
+}
+
+#typography .jumbotron {
+    background: $color-secondary-background url("../images/banner/typography.jpg") center 25% no-repeat;
+}

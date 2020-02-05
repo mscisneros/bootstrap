@@ -1,0 +1,72 @@
+/* BREAKPOINTS: UPDATED JANUARY 28, 2020
+
+** These breakpoints are mostly based on minimum viewport widths
+and allow us to scale up elements as the viewport changes.
+--------------------------------------------------------------- */
+@media (min-width: 375px) and (max-width: 576px) {
+    ul.navbar-nav {
+        margin-top: 1rem;
+
+        .nav-link {
+            padding-left: 0 !important;
+        }
+    }
+
+    footer h5 {
+        margin: 2rem 0;
+    }
+
+    footer hr {
+        border-color: #2f2f2f;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    footer .secondary-tasks {
+        padding: 0;
+    }
+
+    footer .utilities {
+        padding-bottom: 0;
+    }
+
+    footer .utilities li {
+        display: block;
+        line-height: 2.5;
+    }
+
+    footer .social ul {
+        margin-top: 1.5rem !important;
+    }
+}
+
+
+// Extra small (xs) devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+
+
+// Small devices (landscape phones, 576px and up)
+
+
+
+// Medium devices (tablets, 768px and up)
+
+
+
+// Large devices (desktops, 992px and up)
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+
+
+
+// https://www.sitepoint.com/build-responsive-type-scale-bootstrap/
+// It’s worth noting the -*-text-size-adjust: 100%; declarations have been used to prevent some mobile browsers from increasing the font size of their own accord.
+
+
+// Why is the container max widths different than the grid-breakpoints?
+// In other words, if the breakpoint for lg is 992, why not have all containers max-width be 992 on resolutions 992 and below?
+// Between 768 and 991 the max container width is 720 as anything larger at 768 wouldn't fit without having space or gutters.
+// The 720 value is arbitrary, which could be potentially a size where the grid values are whole numbers.

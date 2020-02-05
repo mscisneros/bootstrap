@@ -1,0 +1,15 @@
+/* LINKS RULESETS: UPDATED JANUARY 25, 2020
+---------------------------------------------- */
+a {
+    color: $link-color;
+    text-decoration: none;
+
+     &:hover {
+        color: $link-hover-color;
+        text-decoration: none;
+    }
+
+     &:focus {
+        color: $link-hover-color;
+    }
+}

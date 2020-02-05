@@ -1,0 +1,52 @@
+// Project: GiddyUp Design System Starter Kit
+// Imports: Partial Sass Files
+// Updated: February 5, 2020
+// Note: The main.scss file is the top-level Sass file where the entire project is stitched together
+
+
+// ABSTRACTS
+// Abstracts (or Utilities): holds Sass tools, helper files, variables, functions, mixins, extend and other config files.
+// These files are meant to be just helpers which don’t output any CSS when compiled.
+@import "abstracts/variables"; // INIT VARIABLES
+
+
+// BASE
+// Basic building blocks, typically single html tags
+// Base holds the boilerplate code for the project that includes common styles such as colors, sizes, resets and typographic rules.
+@import "base/document";
+@import "base/links";
+@import "base/typography";
+
+
+// COMPONENTS (or MODULES)
+// Simple combinations of core and reusable components not tied to a specific section.
+// Holds all of your styles for buttons, carousels, sliders, and similar page components (think widgets).
+// Your project will typically contain a lot of component files — as the whole site/app should be mostly composed of small modules.
+@import "components/accordion";
+@import "components/buttons";
+@import "components/card";
+@import "components/jumbotron";
+@import "components/panel";
+
+
+// LAYOUT
+// distinct section of an interface
+@import "layout/footer";
+@import "layout/header";
+@import "layout/sidebar";
+
+
+// PAGE
+// Layouts and specific styles stitched together to form individual pages.
+@import "pages/buttons";
+@import "pages/colors";
+@import "pages/home";
+
+
+// Core
+@import "base/breakpoints";
+
+
+// TERMINAL
+// cd /Users/mariocisneros/Documents/Projects/Websites/giddyup/
+// sass --watch scss/main.scss:css/custom.css

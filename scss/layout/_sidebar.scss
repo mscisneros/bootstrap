@@ -1,0 +1,80 @@
+/* SIDEBAR RULESETS: UPDATED FEBRUARY 5, 2020
+------------------------------------------------ */
+nav.col-lg-3 {
+    background-color: $color-background-light;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav .sidebar {
+    padding-top: 4rem;
+
+    li {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    li.nav-item {
+        border-bottom: 1px solid $gray-light;
+    }
+
+    a.nav-link {
+        color: $gray-dark;
+        font-size: 1.25rem;
+        padding: 1.25rem;
+
+        &:hover {
+            background-color: $brand-primary-color-light;
+        }
+    }
+
+    .dropdown-menu {
+        border-radius: 0;
+        border-top: none;
+        min-width: 285px;
+        padding: 0;
+    }
+
+    .dropdown-item {
+        padding: 1rem 0 1rem 3.25rem  !important;
+
+        &:hover {
+            background-color: $brand-primary-color-light;
+        }
+
+            &::before {
+            display: inline-block;
+            content: '';
+            -webkit-border-radius: 0.375rem;
+            border-radius: 0.375rem;
+            height: 0.5rem;
+            width: 0.5rem;
+            margin-right: 0.5rem;
+            background-color: $color-primary-background;
+        }
+    }
+
+    .fas {
+        color: $brand-primary-color;
+        font-size: 24px;
+        display: inline-block;
+        padding-right: 5px;
+    }
+}
+
+
+
+// ACTIVE LINKS
+#overview nav .sidebar a.overview,
+#colors nav .sidebar a.colors,
+#grid nav .sidebar a.grid,
+#typography nav .sidebar a.typography,
+#contribute nav .sidebar a.contribute {
+    background-color: $color-primary-background;
+    color: $color-tertiary-light;
+}
+
+#overview nav .sidebar a.overview .fas,
+#contribute nav .sidebar a.contribute .fas {
+    color: $color-tertiary-light;
+}

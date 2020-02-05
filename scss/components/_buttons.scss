@@ -1,0 +1,32 @@
+/* BUTTONS: UPDATED JANUARY 24, 2020
+-------------------------------------------------- */
+.btn {
+    border: 1px solid #ccc;
+}
+
+.btn:hover {
+    color: #50B83C;
+}
+
+.btn-default {
+    background-image: linear-gradient(to bottom, $white 0%, #e0e0e0 100%);
+}
+
+.btn-info {
+    background-color: #009bac;
+    border-color: #03636e;
+    margin-left: 1.2rem;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    padding: .5rem 16px;
+}
+
+.btn-link,
+.btn-link.active,
+.btn-link:active,
+.btn-link:disabled {
+    background-color: #5cb85c;
+    border-radius: 4px;
+    color: $white;
+}

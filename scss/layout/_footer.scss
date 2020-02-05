@@ -1,0 +1,96 @@
+/* FOOTER RULESETS: UPDATED JANUARY 27, 2020
+----------------------------------------------- */
+footer {
+    background-color: $color-secondary-background;
+    color: $white;
+    font-size: 0.9em;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 4rem 0;
+    position: relative;
+    width: 100%;
+
+    h5 {
+        color: $color-accent;
+        font-size: 44px;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    h6 {
+        color: $color-tertiary-light;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-position: inside;
+    }
+
+    hr {
+        border-color: #2f2f2f;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    a {
+        color: $white;
+        font-weight: 300;
+
+        &:hover {
+            background: transparent;
+            color: $color-accent;
+            text-decoration: none;
+        }
+    }
+
+    .secondary-tasks {
+        padding: 4rem 0;
+    }
+}
+
+
+
+// COPYRIGHT SECTION
+footer .copyright {
+    color: $color-tertiary-light;
+    padding-top: 4rem;
+
+    p,
+    .social ul {
+        margin: 0;
+    }
+
+    li,
+    .social li {
+        display: inline;
+    }
+
+    .social-circle li {
+        a {
+            background-color: $color-tertiary-light;
+            border-radius: 50% !important;
+            display: inline-block;
+            height: 30px;
+            position: relative;
+            margin: 0 auto;
+            -webkit-border-radius: 50%;
+            text-align: center;
+            width: 30px;
+        }
+
+        i {
+            color: $black;
+            font-size: 16px;
+            line-height: 2;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+/* HEADER RULESETS: UPDATED FEBRUARY 5, 2020
+----------------------------------------------- */
+nav {
+    background-color: $color-primary-background;
+}
+
+.navbar-brand {
+    color: $white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: .75;
+    margin-right: 1em;
+}
+
+
+.navbar-nav .nav-link {
+    color: $gray-lighter !important;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+//  padding-right: 1rem !important;
+    padding-left: 1.5rem !important;
+
+    &:hover {
+        color: $color-tertiary-light !important;
+    }
+}
+
+.navbar {
+    padding: 3rem 1rem;
+
+    .dropdown-item {
+        &:hover {
+            background-color: $color-primary-background !important;
+            color: $color-tertiary-light !important;
+        }
+    }
+}
+
+
+#analytics nav.navbar a.analytics,
+#seo nav.navbar a.seo,
+#creative nav.navbar a.creative,
+#design-system nav.navbar a.design-system,
+#marketing nav.navbar a.marketing,
+#resources nav.navbar a.resources {
+    color: $color-tertiary-light !important;
+}

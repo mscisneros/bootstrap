@@ -1,0 +1,45 @@
+/* CARD: UPDATED JANUARY 6, 2020
+-------------------------------------------------- */
+.panel {
+    background-color: #f5f5f5;;
+    border: 1px solid #ddd;
+    border-radius: 5px !important;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    margin: 1.5rem 0 3.5rem;
+    padding: 1.25rem;
+}
+
+.panel-heading {
+    background-color: #0096c3;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+    font-size: 1.25em;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.panel-body {
+    padding: 2rem 1rem;
+}
+
+.panel-body h3 {
+    color: #000;
+    margin-top: 0;
+}
+
+.panel-body ul {
+    margin-bottom: 0;
+}
+
+#google-ads .panel h3 {
+    color: green;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+#google-ads .panel h4 {
+    border-bottom: 1px solid #ddd;
+    color: #ca4242;
+    margin-top: 0;
+}

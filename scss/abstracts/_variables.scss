@@ -1,0 +1,194 @@
+/* VARIABLES: TABLE OF CONTENTS | UPDATED JANUARY 29, 2020
+---------------------------------------------------------- */
+// 1.  Global
+// 2.  Color System
+// 3.  Options
+// 4.  Spacing
+// 5.  Body
+// 6.  Links
+// 7.  Grid breakpoints
+// 8.  Grid containers
+// 9.  Grid columns
+// 10. Fonts
+// 11. Components
+// 12. Tables
+// 13. Buttons
+// 14. Forms
+// 15. Dropdowns
+// 16. Z-index master list
+// 17. Navbar
+// 18. Navs
+// 19. Pagination
+// 20. Jumbotron
+// 21. Form states and alerts
+// 22. Cards
+// 23. Tooltips
+// 24. Popovers
+// 25. Badges
+// 26. Modals
+// 27. Alerts
+// 28. Progress bars
+// 29. List group
+// 30. Image thumbnails
+// 31. Figures
+// 32. Breadcrumbs
+// 33. Carousel
+// 34. Close
+// 35. Code
+
+
+
+
+// 1. GLOBAL
+$body-font-family : 'Helvetica Neue', 'San Francisco', Roboto, 'Segoe UI', Verdana, Arial, sans-serif;
+$global-margin    : 1rem;
+$global-padding   : 1rem;
+
+
+
+// 2. COLOR SYSTEM
+$white           : #FFFFFF !default;
+$black           : #000000 !default;
+$body-background : $white;
+$body-font-color : #222222;
+
+// Brand
+$brand-primary-color-light : #C1C8EC;
+$brand-primary-color       : #1C4DBF;  // Ex: Header
+$brand-primary-color-dark  : #001F8A;  // Ex: H2
+
+$color-secondary-light     : #6141C9;
+$color-secondary-default   : #451EC3;  // Ex: Navbar #78E300
+$color-secondary-dark      : #310EA1;
+
+$color-tertiary-dark       : #008C8C;
+$color-tertiary-default    : #08B1B1;
+$color-tertiary-light      : #52C9C9;
+$color-accent              : #FFAE0C;  // Ex: Sidebar Hover
+$color-highlight           : #EBF5FA;
+
+// RGB
+$red-lighter : #FBEAE5;
+$red-light   : #FEAD9A;
+$red-primary : #D0021B;
+$red-dark    : #BF0711;
+$red-darker  : #330101;
+$red-text    : #583C35;
+
+$green-lighter : #E3F1DF;
+$green-light   : #BBE5B3;  // Ex: Pull Quote
+$green-primary : #50B83C;
+$green-dark    : #108043;
+$green-darker  : #173630;
+$green-text    : #414F3E;
+
+$blue-lighter : #EBF5FA;
+$blue-light   : #B4E1FA;
+$blue-primary : #006FBB;
+$blue-dark    : #084E8A;
+$blue-darker  : #001429;
+$blue-text    : #3E4E57;
+
+// Grays - Typically used with text and backgrounds
+$gray-lighter : #F8F9FA;
+$gray-light   : #EBEBEB;
+$gray-medium  : #888888;
+$gray-dark    : #444444;
+$gray-darker  : #222222;
+
+// Background
+$color-primary-background   : $brand-primary-color !default;
+$color-secondary-background : $gray-darker;
+$color-background-light     : $gray-lighter;
+
+// Border
+$color-border       : $gray-light;
+$color-border-light : $brand-primary-color-light;
+$color-border-dark  : $brand-primary-color-dark;
+
+// Buttons
+$color-btn-primary           : $brand-primary-color;
+$color-btn-secondary         : #4bca81;
+$color-btn-secondary-hover   : #04844b;
+$color-btn-tertiary          : $gray-lighter;
+$color-btn-outline-secondary : $color-secondary-default;
+
+// Components
+$card-title : #4e433c;
+
+// Links
+$link-color            : $blue-primary;
+$link-hover-color      : #e83e8c;
+$link-light-color      : $blue-light;
+$link-dark-color       : $blue-dark;
+$nav-link-hover-color  : $color-accent;
+$nav-link-active-color : $brand-primary-color;
+
+// Message
+$color-success : #28A745;
+$color-danger  : #DC3545;
+$color-info    : #5bc0de;
+$color-warning : #f0ad4e;
+$color-error   : $red-primary;
+
+// Navigation
+$color-navbar-dark          : rgba($white, .75);  // link static state
+$color-navbar-dark-hover    : rgba($white, .5);   // link hover state
+$color-menu-item-background : $color-secondary-default;
+
+// Shadows
+$shadow-color : rgba(0, 0, 0, .2);
+$box-shadow   : 2px 2px 1px $shadow-color;
+
+// Social
+$fb         : rgb(59, 89, 182);
+$tw         : rgb(64, 153, 255);
+$googleplus : rgb(215, 61, 50);
+$pinterest  : rgb(203, 32, 39);
+$skype      : rgb(18, 165, 244);
+$spotify    : rgb(129, 183, 26);
+$instagram  : #4e433c;
+$tumblr     : #2b4964;
+$vimeo      : #86b32d;
+$soundcloud : #f76600;
+$youtube    : #ff3333;
+$linkedin   : #4875b4;
+$flickr     : #fe0883;
+$foursquare : #8fd400;
+
+// Text
+$text-color          : $body-font-color;
+$text-light-color    : #7d8990;  // Copyright Section
+$text-lightest-color : $white;
+
+
+
+// 3. OPTIONS
+$border-radius : 5px;
+
+
+
+// 4. SPACING
+$spacing-layout-01: 0.75rem;  // 12px
+$spacing-layout-02: 1rem;     // 16px
+$spacing-layout-03: 1.25rem;  // 20px
+$spacing-layout-04: 1.5rem;   // 24px
+$spacing-layout-05: 2rem;     // 32px
+$spacing-layout-06: 3rem;     // 48px
+$spacing-layout-07: 4rem;     // 64px
+$spacing-layout-08: 5rem;     // 80px
+$spacing-layout-09: 6rem;     // 96px
+$spacing-layout-010: 10rem;   // 160px
+
+
+
+// 13. BUTTONS
+$btn-border-radius : 20px;
+
+
+
+// 17. NAVBAR
+
+
+
+// 22. Cards - https://minicss.org/v2/customization/card

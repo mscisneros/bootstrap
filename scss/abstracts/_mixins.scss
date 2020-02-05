@@ -1,0 +1,95 @@
+// MIXINS: UPDATED NOVEMBER 28, 2019
+
+/*
+** Some things in CSS are a bit tedious to write, especially with CSS3 and the many vendor prefixes that exist.
+** A mixin lets you make groups of CSS declarations that you want to reuse throughout your site.
+** You can even pass in values to make your mixin more flexible.
+
+** To create a mixin you use the @mixin directive and give it a name. After you create your mixin,
+** you can then use it as a CSS declaration starting with @include followed by the name of the mixin.
+
+-- Source: https://sass-lang.com/documentation/at-rules/mixin
+-- Source: https://sass-guidelin.es/#mixins
+-- Source: https://www.youtube.com/watch?v=O1OKJQy2T4A
+------------------------------------------------------------------------------------------------------------ */
+
+
+/*
+** There’s the name of the mixin and it takes in three arguments.
+** The parathesis() hold custom parameters and variables
+** Each argument is tied to a CSS property.
+** When the mixin is called, Sass will copy the properties and the pass in the argument values.
+------------------------------------------------------------------------------------------------------------ */
+
+// Declare a mixin with the @sign
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin fancy-border() {
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@mixin no-margin-padding() {
+	margin: 0;
+    padding: 0;
+}
+
+@mixin flex-center($background) {
+	background:$background;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*
+** There’s the name of the mixin (text) and it takes in three arguments.
+** Each argument is tied to a CSS property.
+** When the mixin is called, Sass will copy the properties and the pass in the argument values.
+** Files: Typography
+------------------------------------------------------------------------------------------------------------ */
+@mixin text($size, $letter-spacing, $line-height, $weight) {
+    font-size: $size;
+    letter-spacing: $letter-spacing;
+    line-height: $line-height;
+    font-weight: $weight;
+}
+
+
+// Mixin for creating the triangle for most traditional tooltips, all without images.
+// You just specify it's colour, how big you want it, and it's direction.
+// https://engageinteractive.co.uk/blog/top-10-scss-mixins
+
+@mixin css-triangle($color, $direction, $size: 6px, $position: absolute, $round: false){
+    @include pseudo($pos: $position);
+    width: 0;
+    height: 0;
+    @if $round {
+        border-radius: 3px;
+    }
+    @if $direction == down {
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-top: $size solid $color;
+        margin-top: 0 - round( $size / 2.5 );
+    } @else if $direction == up {
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        border-bottom: $size solid $color;
+        margin-bottom: 0 - round( $size / 2.5 );
+    } @else if $direction == right {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-left: $size solid $color;
+        margin-right: -$size;
+    } @else if  $direction == left {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-right: $size solid $color;
+        margin-left: -$size;
+    }
+}
