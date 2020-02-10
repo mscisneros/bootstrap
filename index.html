@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" id="design-system">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>GiddyUp Design System</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Create a unified and consistent brand experience and UI using a shared design language.">
     <meta name="author" content="Mario Cisneros">
     <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -14,183 +14,76 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css">
 </head>
 
-<body id="overview">
+<body id="home">
 <!--#include virtual="includes/header.htm"-->
 
-<div class="container  section-content">
-    <div class="row">
-        <!--#include virtual="includes/sidebar.htm"-->
-
-        <main role="main" class="col-lg-9  order-1  order-lg-9  pl-lg-5">
-            <!-- JUMBOTRON SECTION -->
-            <div class="jumbotron  jumbotron-fluid">
-                <div class="overlay">
-                    <section class="container">
-                        <h1>GiddyUp Design System</h1>
-                        <p>A basic starter kit that serves as a foundation to help create and build products and features faster.</p>
-                    </section>
-                </div>
-            </div>
-
-            <div class="justify-content-between  flex-wrap  flex-md-nowrap  align-items-center">
-                <p class="lead">A design system is a centralized collection of guidelines, principles and reusable components that are guided by clear standards, which helps a business reinforce a consistent brand. These guidelines and components provide a unified language and consistent look and feel when designing websites, apps and products.</p>
-
-                <p>Before diving into the design process, start by considering who needs to be involved in the creation of your design system. Once the right team is assembled, you&#39;re ready to start thinking about the design language of the system, which will include <mark>color, typography, spacing</mark>, and more. Your visual design language will be the foundation of your UI library&#45;a series of components that can be quickly assembled to create an interface.</p>
-
-                <p>Here&#39;s a quick list of the disciplines that can be represented in your team to create an effective design system:</p>
-
-                <ul>
-                    <li><strong>Designers</strong> to define the visual elements of the system</li>
-                    <li><strong>Front-end developers</strong> to create modular, efficient code</li>
-                    <li><strong>Accessibility experts</strong> to ensure your system conforms to standards like <a href="https://www.w3.org/WAI/intro/wcag">WCAG</a></li>
-                    <li><strong>Content strategists</strong> who can help the team nail the voice and tone of the system</li>
-                    <li><strong>Researchers</strong> who can help you understand customer needs</li>
-                    <li><strong>Performance experts</strong> who can ensure your system loads quickly on all devices</li>
-                    <li><strong>Product managers</strong> to ensure the system is aligned with customer needs</li>
-                    <li><strong>Leaders</strong> (VPs and directors) to champion and align the vision throughout the company, including up to executive leadership</li>
-                </ul>
-
-                <p>Once you&#39;ve got the right skillsets represented in the design systems team, identify leaders to represent each area. These people should be able to drive decisions forward. Know who on the team can advocate for each of the areas of the design system.</p>
-
-                <h2>Design Principles</h2>
-
-                <div class="pull-quote  d-none  d-md-block">
-                    <p>Design systems are always evolving, and the way you share and encourage adoption of new iterations will evolve along the way as well. <br> <span>&#45;Diana Mounter, Design Systems Manager at GitHub</span></p>
-                </div>
-
-                <p>A design system is about bringing order in an effort to fix inefficiency and inconsistency by creating common components and standards for using them.</p>
-
-                <ol>
-                    <li><strong>Clarity:</strong> Eliminate ambiguity. Enable people to see, understand, and act with confidence.</li>
-                    <li><strong>Efficiency:</strong> Streamline and optimize workflows. Intelligently anticipate needs to help people work better, smarter, and faster.</li>
-                    <li><strong>Consistency:</strong> Create familiarity and strengthen intuition by applying the same solution to the same problem.</li>
-                    <li><strong>Beauty:</strong> Demonstrate respect for people&#39;s time and attention through thoughtful and elegant craftsmanship.</li>
-                </ol>
-
-                <h3>Accessibility</h3>
-                <p>Accessibility in digital design is the practice of crafting experiences for all people, including those of us with visual, speech, auditory, physical, or cognitive disabilities. An inclusive web made for and consumable by all people.</p>
-
-                <h2>Building a Design System</h2>
-                <p class="lead"><mark>Color, space and typography</mark> are the core building blocks for a solid design system. These three focus areas are what create distinctive, recognizable and unique brands.</p>
-
-                <h3>Key Steps:</h3>
-                <ol>
-                    <li><strong>Design Audit:</strong> Review every single application and website, and identify common components and collect all contexts and use cases.</li>
-                    <li><strong>Design Language:</strong> The visual design language is the core of a design system, and is made up of the discernible components that you&#39;ll use to construct your digital product. Your visual design language is made up of four main categories:
-                        <ol class="my-2  ml-4" type="a">
-                            <li><strong>Color:</strong> Common colors in a design system include 1–3 primaries that represent your brand. You may want to include a range of tints (a color mixed with white &ndash; and shades &ndash; a color mixed with black &ndash; to give your designs a few more options.</li>
-                            <li><strong>Typography:</strong> Most design systems include just 2 fonts: 1 font for both headings and body copy, and a monospace font for code. Keep it simple to avoid overloading and confusing your user, and it also prevents performance issues caused by excessive use of web fonts.</li>
-                            <li><strong>Sizing and Spacing:</strong> The system you use for spacing and sizing looks best when you have rhythm and balance. A 4-based scale is growing in popularity as the recommended scale due to its use in iOS and Android standards, ICO size formats, and even the standard browser font size.</li>
-                            <li><strong>Imagery:</strong> The key to success with imagery is following a set guidelines for illustrations and icons, and using the best image format for the situation.</li>
-                        </ol>
-                    </li>
-                    <li><strong>Create a UI/pattern library:</strong> Unlike the visual audit you’ve already conducted (which looked at the visual qualities of your design elements), this step in the process looks at the actual components of your UI. Collect all of the parts and pieces of your UI currently in production. That means every button, form, modal, and image. Merge and remove what you don’t need.</li>
-                    <li><strong>Document what each component is and when to use it:</strong> This step is important. Documentation and standards are what separate a pattern library from a true design system.</li>
-                    <li><strong>Scale:</strong> Ability to scale the system to meet future needs.</li>
-                    <li><strong>Maintenance:</strong> Ability to collaborate and maintain the system in real&#45;time.</li>
-                    <li><strong>Flexible:</strong> System that is flexible enough to adapt to project demands.</li>
-                </ol>
-
-                <h3>Design Tokens</h3>
-                <p>Design tokens are the “subatomic” foundation of a design system implementation. At its simplest, they’re name and value pairs stored as data to abstract the design properties you want to manage. With the values for all design tokens stored in a single place, it’s easier to achieve consistency while reducing the burden of managing your design system.</p>
-
-                <p><strong>Example:</strong> $brand-primary-color : #1C4DBF;</p>
-
-                <p>In design tokens you can store colors, spacing, sizing, etc., and distribute them to various platforms.</p>
-
-                <h2>Design System Commonalities</h2>
-                <p>Some of the common feature across various and popular design systems:</p>
-
-                <ul>
-                    <li><strong>Style &amp; Design Guidelines</strong>: Typorgraphy, colors, spacing and illustrations, etc.</li>
-                    <li><strong>Pattern Libraries (or component libraries):</strong> Forms, &amp; form elements, images, navigation, overlays, etc.</li>
-                    <li>Motion Guidelines</li>
-                    <li><strong>Content Style Guides:</strong> Voice &amp; tone, language, how to write, objectives, principles, etc.</li>
-                </ul>
-
-                <h3>Guides and Libraries</h3>
-                <ul>
-                    <li><strong>Style Guide:</strong> The physical or digital document that represents the styles, patterns, practices, and principles of a company/brand and how to use it.</li>
-                    <li><strong>Pattern Library:</strong> An organized set of related, reusable components, often containing code examples, design guidelines, and use cases.</li>
-                </ul>
-            </div>
-
-            <p>Design system patterns are usually tested with end&#45;users, thus can be easily assembled into new features. If properly set up, experimented, tested and maintained a well&#45;defined system is one of the best designer&#39;s friends. Furthermore, a living design system is one of the most important step-ups for mature designops and UX design organizations. In short, the comprehensive set of values, semantics, syntax, and context that form the foundation of a shared design language.</p>
-
-            <div class="card">
-                <div class="card-header">Downloads</div>
-                <div class="card-body">
-                    <ul class="mb-0">
-                        <li><a href="#" rel="noopener" target="_blank">GiddyUp Design System UI Kit</a> (<img src="images/icons/icon-sketch.png" alt=""> 9.5 MB)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h3>
-                            <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Resources</a>
-                        </h3>
-                    </div>
-
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4>Design Systems</h4>
-                                    <p>A pre&#45;built library of design assets that can be used for quick product prototyping, design and development, which typically includes typographic styles, colors, icon library, UI components, grid layouts and brand guidelines.</p>
-                                    <ul>
-                                        <li><a href="https://atlassian.design/" rel="noreferrer" target="_blank">Atlassian</a></li>
-                                        <li><a href="https://carbondesignsystem.com/" rel="noreferrer" target="_blank">Carbon | IBM</a>
-                                            <ul>
-                                                <li class="mt-0"><a href="https://github.com/carbon-design-system/carbon" rel="noreferrer" target="_blank">GitHub</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="https://polaris.shopify.com/" rel="noreferrer" target="_blank">Polaris | Shopify</a></li>
-                                        <li><a href="https://lightningdesignsystem.com/guidelines/overview/" rel="noreferrer" target="_blank">Lightning Design System | Salesforce</a></li>
-                                    </ul>
-
-                                    <h4 class="mt-5">Related Articles</h4>
-                                    <ul>
-                                        <li><a href="https://www.invisionapp.com/inside-design/guide-to-design-systems/" rel="noreferrer" target="_blank">A comprehensive guide to design systems | InVision</a></li>
-                                        <li><a href="https://www.invisionapp.com/inside-design/design-system-constraints/" rel="noreferrer" target="_blank">Learning to love the constraints of a design system | InVision</a></li>
-                                        <li><a href="https://seesparkbox.com/foundry/design_system_visual_regression_testing" rel="noreferrer "target="_blank">Visual Regression Testing in Design Systems</a></li>
-                                    </ul>
-
-                                    <h4 class="mt-5">Related Resources</h4>
-                                    <ul>
-                                        <li><a href="https://cssstats.com/" rel="noreferrer" target="_blank">CSS Stats</a></li>
-
-                                        <li><a href="https://designcode.io/design-system" rel="noreferrer" target="_blank">Design+Code</a>
-                                            <ul class="pl-3">
-                                                <li class="mt-0"><a href="https://designcode.io/design-system-in-figma" rel="noreferrer" target="_blank">Design System in Figma</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li><a href="https://uxdesign.cc/building-a-design-system-where-to-start-part-1-first-things-first-57577153ae2d" rel="noreferrer" target="_blank">Building a design system &ndash; where to start? | Medium</a></li>
-                                        <li><a href="https://medium.com/sketch-app-sources/design-systems/home" rel="noreferrer" target="_blank">Design Systems | Medium</a></li>
-                                        <li><a href="https://medium.com/sketch-app-sources/creating-with-a-design-system-in-sketch-part-one-tutorial-5116e36213f9" rel="noreferrer" target="_blank">Creating with a Design System (Tuts 1-9) | Medium</a></li>
-                                        <li><a href="https://www.designbetter.co/design-systems-handbook" rel="noreferrer" target="_blank">Design Systems Handbook | Design Better</a></li>
-                                        <li><a href="https://www.invisionapp.com/design-system-manager/" rel="noreferrer" target="_blank">Design System Manager | InVision</a></li>
-                                    </ul>
-
-                                    <h4 class="mt-5">YouTube Tutorials</h4>
-                                    <ul>
-                                        <li><a href="https://www.youtube.com/watch?v=wc5krC28ynQ" rel="noreferrer" target="_blank">DesignCourse | Design Systems 101 for Designers</a></li>
-                                        <li><a href="https://www.youtube.com/watch?v=_vtNOzaJUHk" rel="noreferrer" target="_blank">Design Systems: What is a Design System? (Part 1)</a></li>
-                                        <li><a href="https://www.youtube.com/watch?v=YCcdEVIIBuo&t=37s" rel="noreferrer" target="_blank">How To Build A Design System (Part 2)</a></li>
-                                        <li><a href="https://www.youtube.com/playlist?list=PLM2Dd2NIn2CqxUkHHiDvDbNIbqbv8ehy_" rel="noreferrer" target="_blank">VAExperience | Getting Started with Design Systems (Ep 1-10)</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+<!-- JUMBOTRON SECTION -->
+<div class="banner  jumbotron  jumbotron-fluid">
+    <div class="container">
+        <section class="overlay">
+            <h1>GiddyUp Design System</h1>
+            <p>A basic starter kit that serves as a foundation to help create and build features and products faster.</p>
+        </section>
     </div>
 </div>
+
+<main role="main" class="container  section-content">
+    <div class="row">
+        <div class="col-lg-7">
+            <h2 class="mt-3">Guidelines</h2>
+            <p class="lead">An open-source and centralized collection of guidelines and reusable components that are guided by clear standards, which helps a business reinforce a consistent brand. These guidelines provide an unified language and a set of best practices that provides developers and designers with the tools they need to create meaningful user experiences.</p>
+        </div>
+
+        <div class="col-lg-5  d-none  d-md-block  pl-5">
+            <img src="images/graphics/destination.png" alt="">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <section class="card-body">
+                    <h3 class="card-title"><i class="fas fa-edit pl-2"></i> Guidelines</h3>
+                    <p class="card-text">A design system is about providing an efficient and consistent standard for creating and implementing common components across various platforms.</p>
+                    <a href="/giddyup/guides/index.html">Read Content Guidelines &#187;</a>
+                </section>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card">
+                <section class="card-body">
+                    <h3 class="card-title"><i class="fas fa-palette pl-2"></i> Design</h3>
+                    <p class="card-text">The core building blocks for a solid design system are color, space and typography, which help to create distinctive, recognizable and unique brands.</p>
+                    <a href="/giddyup/design/index.html">Read Design Principles &#187;</a>
+                </section>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card">
+                <section class="card-body">
+                    <h3 class="card-title"><i class="fas fa-code pl-2"></i> Components</h3>
+                    <p class="card-text">Components are a collection of interface elements and key building blocks that can be reused across any system to design consistent experiences.</p>
+                    <a href="/giddyup/design/index.html">Browse Components &#187;</a>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="callout">
+        <div class="row">
+            <section class="col-lg-8">
+                <h2>Contribute</h2>
+                <p>We welcome any feedback or suggestions that will improve the design system and overall user experience. Therefore, if you are interested in contributing check out our guidelines to get started.</p>
+            </section>
+
+            <div class="col-lg-4  my-auto  text-center">
+                <a href="contribute.html" class="btn  btn-primary">Get started</a>
+            </div>
+        </div>
+    </div>
+</main>
 
 <!--#include virtual="includes/footer.htm"-->
 
